@@ -24,5 +24,5 @@ DESC
   spec.require_paths = ['lib']
 
   spec.add_dependency 'motion-kit'
-  spec.add_dependency 'sweettea'
+  spec.add_dependency 'sugarcube'
 end
