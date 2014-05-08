@@ -9,7 +9,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     dbt (1.1.4)
-    motion-kit (0.9.3)
+    motion-kit (0.9.4)
       dbt
     sugarcube (1.6.0)
 
