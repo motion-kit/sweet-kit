@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    sweet-kit (0.1.0)
+      motion-kit
+      sugarcube
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dbt (1.1.4)
+    motion-kit (0.9.3)
+      dbt
+    sugarcube (1.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sweet-kit!
