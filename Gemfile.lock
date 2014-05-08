@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sweet-kit (0.1.0)
+    sweet-kit (0.2.0)
       motion-kit
       sugarcube
 
