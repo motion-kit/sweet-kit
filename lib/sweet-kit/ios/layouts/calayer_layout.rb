@@ -10,7 +10,7 @@ module MotionKit
     end
     alias backgroundColor background_color
 
-    def border_color(value, alpha=nil)
+    def border_color(value)
       if key == :color && CFGetTypeID(value) != CGColorGetTypeID()
         value = value.uicolor.CGColor
       end
