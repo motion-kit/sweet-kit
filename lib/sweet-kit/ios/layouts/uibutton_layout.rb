@@ -6,6 +6,11 @@ module MotionKit
       target.titleLabel.font = value && value.uifont
     end
 
+    def font(value, size: size)
+      font = value && value.uifont(size)
+      target.titleLabel.font = font
+    end
+
     def normal(&block)
       button_state = SweetKit::ButtonState.new(target, UIControlStateNormal)
       context(button_state, &block)

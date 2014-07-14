@@ -25,6 +25,11 @@ module MotionKit
       target.font = value
     end
 
+    def font(value, size: size)
+      font = value && value.uifont(size)
+      target.font = font
+    end
+
     def line_break_mode(value)
       value = value.uilinebreakmode if value.respond_to?(:uilinebreakmode)
       target.lineBreakMode = value
