@@ -18,10 +18,5 @@ module MotionKit
     end
     alias borderColor border_color
 
-    def shadow(&block)
-      shadow = SweetKit::Shadow.new(target)
-      context(shadow, &block)
-    end
-
   end
 end
