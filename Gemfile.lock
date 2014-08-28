@@ -8,10 +8,10 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    dbt (1.1.4)
-    motion-kit (0.9.4)
-      dbt
-    sugarcube (1.6.0)
+    dbt (1.1.5)
+    motion-kit (0.10.11)
+      dbt (~> 1.1.5)
+    sugarcube (2.0.0)
 
 PLATFORMS
   ruby
