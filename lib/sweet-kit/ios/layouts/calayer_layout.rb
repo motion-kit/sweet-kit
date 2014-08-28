@@ -2,7 +2,7 @@
 module MotionKit
   class CALayerLayout
 
-    def background_color(value, alpha=nil)
+    def background_color(value)
       if key == :color && CFGetTypeID(value) != CGColorGetTypeID()
         value = value.uicolor.CGColor
       end
