@@ -1,4 +1,5 @@
 # @requires MotionKit::BaseLayout
+# @requires SweetKit::Shadow
 module SweetKit
 
   class ShadowLayout < MotionKit::BaseLayout
