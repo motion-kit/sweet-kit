@@ -7,13 +7,17 @@ end
 
 require 'motion-kit'
 require 'sugarcube'
-require 'sugarcube-uikit'
+platform = App.template
+if platform == :ios
+  require 'sugarcube-uikit'
+elsif platform == :osx
+  require 'sugarcube-appkit'
+end
 require 'sugarcube-color'
 require 'sugarcube-constants'
 
 
 Motion::Project::App.setup do |app|
-  platform = app.respond_to?(:template) ? app.template : :ios
   cocoa_lib_files = Dir.glob(File.join(File.dirname(__FILE__), "sweet-kit/cocoa/**/*.rb"))
   platform_lib_files = Dir.glob(File.join(File.dirname(__FILE__), "sweet-kit/#{platform}/**/*.rb"))
 
