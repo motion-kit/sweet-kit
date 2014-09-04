@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
-require './lib/sweet-kit'
 
 begin
   require 'bundler'
@@ -10,6 +9,7 @@ begin
 rescue LoadError
 end
 
+require './lib/sweet-kit'
 require 'sugarcube-repl'
 
 Motion::Project::App.setup do |app|
