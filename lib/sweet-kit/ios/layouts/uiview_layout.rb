@@ -1,6 +1,6 @@
-# @requires MotionKit::UIViewLayout
+# @requires MotionKit::UIViewHelpers
 module MotionKit
-  class UIViewLayout
+  class UIViewHelpers
 
     def background_color(value)
       target.backgroundColor = value && value.uicolor

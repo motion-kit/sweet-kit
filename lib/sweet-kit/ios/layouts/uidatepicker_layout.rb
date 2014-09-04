@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UIDatePickerLayout < UIViewLayout
+  class UIDatePickerHelpers < UIViewHelpers
     targets UIDatePicker
 
     def date_picker_mode(value)

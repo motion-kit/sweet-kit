@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UILabelLayout < UIViewLayout
+  class UILabelHelpers < UIViewHelpers
     targets UILabel
 
     def shadow_color(value)

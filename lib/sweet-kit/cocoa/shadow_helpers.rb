@@ -2,7 +2,7 @@
 # @requires SweetKit::Shadow
 module SweetKit
 
-  class ShadowLayout < MotionKit::BaseLayout
+  class ShadowHelpers < MotionKit::BaseLayout
     targets Shadow
 
     def opacity(value)

@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UITextFieldLayout < UIViewLayout
+  class UITextFieldHelpers < UIViewHelpers
     targets UITextField
 
     def keyboard_type(value)

@@ -1,6 +1,6 @@
-# @requires MotionKit::NSViewLayout
+# @requires MotionKit::NSViewHelpers
 module MotionKit
-  class NSButtonLayout < NSViewLayout
+  class NSButtonHelpers < NSViewHelpers
     targets NSButton
 
     def button_type(value)

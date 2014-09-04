@@ -11,7 +11,7 @@ module SweetKit
 
   end
 
-  class ButtonStateLayout < MotionKit::BaseLayout
+  class ButtonStateHelpers < MotionKit::BaseLayout
     targets ButtonState
 
     def title(value)

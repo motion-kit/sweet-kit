@@ -1,5 +1,5 @@
 module SweetKit
-  module Layout
+  module Styles
 
     def sweetkit_label
       font :system.uifont(17)

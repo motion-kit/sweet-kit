@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UINavigationBarLayout < UIViewLayout
+  class UINavigationBarHelpers < UIViewHelpers
     targets UINavigationBar
 
     def backgroundImage(image, forBarMetrics: value)

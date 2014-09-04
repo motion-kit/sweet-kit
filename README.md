@@ -6,6 +6,27 @@ style abilities of MotionKit, for great good.
     $ gem install sweet-kit
     gem 'sweet-kit'
 
+# Styles
+
+See styles.rb for helper methods.
+
+```ruby
+class AnyLayout < MK::Layout
+  include SweetKit::Styles
+
+  def text_field_styles
+    sweetkit_input
+    # =>
+    font :system.uifont(14)
+    color :black
+    border :rounded
+    alignment :left
+    opaque false
+    backgroundColor :clear
+  end
+
+end
+```
 # Shadow
 
 ```ruby

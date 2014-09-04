@@ -1,6 +1,6 @@
-# @requires MotionKit::UIViewLayout
+# @requires MotionKit::UIViewHelpers
 module MotionKit
-  class UIActivityIndicatorViewLayout < UIViewLayout
+  class UIActivityIndicatorViewHelpers < UIViewHelpers
     targets UIActivityIndicatorView
 
     def color(value)

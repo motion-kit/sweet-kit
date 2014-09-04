@@ -1,10 +1,10 @@
-# @requires MotionKit::CALayerLayout
+# @requires MotionKit::CALayerHelpers
 module MotionKit
-  class CALayerLayout
+  class CALayerHelpers
 
     def shadow(&block)
-      shadow = SweetKit::Shadow.new(target)
-      context(shadow, &block)
+      sk_shadow = SweetKit::Shadow.new(target)
+      context(sk_shadow, &block)
     end
 
   end

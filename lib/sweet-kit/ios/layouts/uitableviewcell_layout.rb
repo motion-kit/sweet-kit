@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UITableViewCellLayout < UIViewLayout
+  class UITableViewCellHelpers < UIViewHelpers
     targets UITableViewCell
 
     def selection_style(value)

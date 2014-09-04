@@ -1,6 +1,6 @@
-# @requires MotionKit::UIButtonLayout
+# @requires MotionKit::UIButtonHelpers
 module MotionKit
-  class UIButtonLayout
+  class UIButtonHelpers
 
     def font(value)
       target.titleLabel.font = value && value.uifont

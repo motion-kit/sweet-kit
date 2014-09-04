@@ -1,9 +1,9 @@
-# @requires MotionKit::CALayerLayout
+# @requires MotionKit::CALayerHelpers
 module MotionKit
-  class CALayerLayout
+  class CALayerHelpers
 
     def background_color(value)
-      if key == :color && CFGetTypeID(value) != CGColorGetTypeID()
+      if CFGetTypeID(value) != CGColorGetTypeID()
         value = value.uicolor.CGColor
       end
       target.backgroundColor = value
@@ -11,7 +11,7 @@ module MotionKit
     alias backgroundColor background_color
 
     def border_color(value)
-      if key == :color && CFGetTypeID(value) != CGColorGetTypeID()
+      if CFGetTypeID(value) != CGColorGetTypeID()
         value = value.uicolor.CGColor
       end
       target.borderColor = value

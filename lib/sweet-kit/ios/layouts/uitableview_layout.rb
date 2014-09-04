@@ -1,5 +1,6 @@
+# @requires MK::UIViewHelpers
 module MotionKit
-  class UITableViewLayout < UIViewLayout
+  class UITableViewHelpers < UIViewHelpers
     targets UITableView
 
     def separator_style(value)

@@ -1,6 +1,6 @@
-# @requires MotionKit::NSViewLayout
+# @requires MotionKit::NSViewHelpers
 module MotionKit
-  class NSTextFieldLayout < NSViewLayout
+  class NSTextFieldHelpers < NSViewHelpers
     targets NSTextField
 
     def alignment(value)

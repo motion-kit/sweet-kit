@@ -1,6 +1,6 @@
-# @requires MotionKit::NSViewLayout
+# @requires MotionKit::NSViewHelpers
 module MotionKit
-  class NSViewLayout
+  class NSViewHelpers
 
     def shadow(&block)
       target.layer ||= CALayer.layer
