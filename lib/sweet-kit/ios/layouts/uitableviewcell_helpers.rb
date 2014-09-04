@@ -1,4 +1,4 @@
-# @requires MK::UIViewHelpers
+# @requires MotionKit::UIViewHelpers
 module MotionKit
   class UITableViewCellHelpers < UIViewHelpers
     targets UITableViewCell
