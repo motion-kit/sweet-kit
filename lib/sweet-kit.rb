@@ -9,7 +9,7 @@ require 'motion-kit'
 require 'sugarcube'
 platform = App.template
 if platform == :ios
-  require 'sugarcube-uikit'
+  require 'sugarcube-ui'
 elsif platform == :osx
   require 'sugarcube-appkit'
 end
