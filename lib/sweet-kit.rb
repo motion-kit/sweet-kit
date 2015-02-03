@@ -7,14 +7,14 @@ end
 
 require 'motion-kit'
 require 'sugarcube'
-platform = App.template
-if platform == :ios
-  require 'sugarcube-ui'
-elsif platform == :osx
-  require 'sugarcube-appkit'
-end
+require 'sugarcube-ui'
 require 'sugarcube-color'
 require 'sugarcube-constants'
+
+platform = App.template
+if platform == :ios
+elsif platform == :osx
+end
 
 
 Motion::Project::App.setup do |app|
