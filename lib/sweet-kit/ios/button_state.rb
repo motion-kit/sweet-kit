@@ -40,7 +40,7 @@ module SweetKit
 
     def image(value)
       value = value && value.uiimage
-      target.setImage(value, forState:actual_state)
+      target.view.setImage(value, forState:target.state)
     end
 
   end
