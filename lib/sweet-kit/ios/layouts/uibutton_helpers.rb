@@ -51,5 +51,12 @@ module MotionKit
       target.setImage(value, forState: state)
     end
 
+
+    def rounded_button(value)
+      layer do
+        corner_radius value
+        masks_to_bounds true
+      end
+    end
   end
 end
