@@ -52,9 +52,9 @@ module MotionKit
     end
 
 
-    def rounded_button(value)
+    def rounded_corner(radius)
       layer do
-        corner_radius value
+        corner_radius radius
         masks_to_bounds true
       end
     end
